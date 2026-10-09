@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="86" y1="52" x2="1098" y2="844" gradientUnits="userSpaceOnUse"><stop stop-color="#E9E5DA"/><stop offset="1" stop-color="#D4D7C9"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#536B55"/><stop offset="1" stop-color="#1D382B"/></linearGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8F3E8"/><stop offset="1" stop-color="#DED5C2"/></linearGradient>
+    <filter id="shadow" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="1010" cy="126" r="200" fill="#F7F4EC" fill-opacity=".42"/>
+  <path d="M0 665C208 610 354 691 536 644c220-57 420-38 664 40v216H0V665Z" fill="#B8BDAA" fill-opacity=".48"/>
+  <ellipse cx="599" cy="748" rx="410" ry="46" fill="#394B3D" fill-opacity=".2" filter="url(#shadow)"/>
+  <!-- leaves -->
+  <path d="M186 662c12-153 82-280 214-375-4 149-67 284-214 375Z" fill="#75836C"/>
+  <path d="M199 648c55-133 117-228 201-332M1027 664c-1-142-50-264-153-362 1 145 40 267 153 362Z" fill="#667B63"/>
+  <path d="M1020 651c-39-123-83-226-144-327" stroke="#D6D7C6" stroke-width="5" stroke-linecap="round"/>
+  <path d="M196 653c-48-115-97-202-165-278m150 153-95-10m146-70-94-32m814 232c41-105 77-194 133-274m-118 145 87-16m-118-58 79-37" stroke="#D6D7C6" stroke-width="4" stroke-linecap="round"/>
+  <!-- left bottle -->
+  <rect x="335" y="390" width="175" height="315" rx="26" fill="url(#cream)"/>
+  <rect x="381" y="340" width="83" height="57" rx="8" fill="#B8A982"/>
+  <rect x="392" y="316" width="61" height="30" rx="5" fill="#D9CEB6"/>
+  <rect x="355" y="474" width="135" height="154" rx="5" fill="#F7F4EC"/>
+  <text x="422" y="521" text-anchor="middle" fill="#334638" font-family="Georgia,serif" font-size="23" letter-spacing="4">SOL</text>
+  <path d="M392 541h60" stroke="#9CA986" stroke-width="2"/>
+  <text x="422" y="570" text-anchor="middle" fill="#586052" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">BOTANICAL</text>
+  <text x="422" y="591" text-anchor="middle" fill="#586052" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5">CLEANSER</text>
+  <text x="422" y="612" text-anchor="middle" fill="#8C8A7D" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">150 ML / 5 FL OZ</text>
+  <!-- center jar -->
+  <rect x="527" y="464" width="245" height="245" rx="34" fill="url(#glass)"/>
+  <rect x="516" y="433" width="267" height="48" rx="13" fill="#C5B898"/>
+  <rect x="545" y="512" width="209" height="140" rx="6" fill="#F2EEE2"/>
+  <text x="649" y="557" text-anchor="middle" fill="#294332" font-family="Georgia,serif" font-size="26" letter-spacing="5">SÖL</text>
+  <path d="M597 577h104" stroke="#9CA986" stroke-width="2"/>
+  <text x="649" y="606" text-anchor="middle" fill="#586052" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">NOURISHING</text>
+  <text x="649" y="628" text-anchor="middle" fill="#586052" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">FACE CREAM</text>
+  <!-- right dropper -->
+  <rect x="792" y="414" width="140" height="291" rx="24" fill="url(#glass)"/>
+  <rect x="826" y="358" width="72" height="68" rx="12" fill="#B8A982"/>
+  <rect x="843" y="330" width="38" height="36" rx="12" fill="#E4DCC9"/>
+  <rect x="808" y="490" width="108" height="135" rx="5" fill="#F2EEE2"/>
+  <text x="862" y="532" text-anchor="middle" fill="#294332" font-family="Georgia,serif" font-size="20" letter-spacing="4">SÖL</text>
+  <path d="M831 549h62" stroke="#9CA986" stroke-width="2"/>
+  <text x="862" y="576" text-anchor="middle" fill="#586052" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5">BOTANICAL</text>
+  <text x="862" y="596" text-anchor="middle" fill="#586052" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5">FACE OIL</text>
+  <text x="862" y="615" text-anchor="middle" fill="#8C8A7D" font-family="Arial,sans-serif" font-size="8" letter-spacing="1">30 ML</text>
+  <text x="600" y="812" text-anchor="middle" fill="#435244" font-family="Arial,sans-serif" font-size="13" letter-spacing="5">BOTANICAL SKINCARE · NAIROBI</text>
+</svg>

@@ -14,7 +14,7 @@ const services = [
   {
     tag: '03 / THE YIELD', title: 'Performance & Digital Acquisition',
     description: 'For scaling companies ready to turn visual authority into predictable customer acquisition without cheapening brand perception.',
-    image: 'photo-1522337360788-8b13dee7a37e', alt: 'Botanical skincare and beauty products',
+    image: '/assets/beauty.jpg', alt: 'Botanical skincare packaging',
     items: ['Paid Social Strategy (Meta, TikTok Ads)', 'Direct-Response Video & Static Variations', 'Click-to-Message & Lead Generation Funnels', 'E-Commerce Conversion Optimization', 'Monthly Attribution & CAC Reporting', 'Creative Iteration & Testing Frameworks'],
   },
 ];
@@ -26,12 +26,13 @@ const phases = [
 ];
 
 const projects = [
-  { name: 'SÖL Apothecary', metric: '+42% AOV', image: 'photo-1608248597359-54bc78345c2f', alt: 'Sustainable botanical skincare packaging', description: 'Complete rebrand, sustainable packaging architecture, and 3.4x ROAS launch strategy for clean botanical formulations.' },
+  { name: 'SÖL Apothecary', metric: '+42% AOV', image: '/assets/beauty.jpg', alt: 'Sustainable botanical skincare packaging', description: 'Complete rebrand, sustainable packaging architecture, and 3.4x ROAS launch strategy for clean botanical formulations.' },
   { name: 'Atelier Forme Studio', metric: '+180% Inbound B2B', image: 'photo-1486406146926-c627a92ad1ab', alt: 'Contemporary commercial architecture', description: 'Editorial visual identity and weekly content direction for an architectural design practice scaling high-ticket commercial commissions.' },
 ];
 
 function Photo({ id, alt, className = '' }: { id: string; alt: string; className?: string }) {
-  return <img className={className} src={`https://images.unsplash.com/${id}?auto=format&fit=crop&w=1400&q=85`} alt={alt} loading="lazy" />;
+  const src = id.startsWith('/') ? id : `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1400&q=85`;
+  return <img className={className} src={src} alt={alt} loading="lazy" />;
 }
 
 export function Hero() {
